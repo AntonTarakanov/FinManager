@@ -1,0 +1,39 @@
+.word {
+    color: maroon;
+    font-weight: bolder;
+}
+
+.example {
+    background-color: dimgray;
+    display: inline-block;
+    padding: 10px;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    margin-top: -250px;
+    margin-left: -225px;
+    float: right;
+}
+
+.unit {
+    border-width: 7px;
+    border-style: ridge;
+    border-color: #BCA9A9;
+    padding: 10px;
+    margin: 20px;
+}
+
+.input {
+    clear: left;
+    align-content: center ;
+}
+
+form label {
+    float: left;
+    text-align: right;
+    position: relative;
+    margin-right: 15px;
+}
