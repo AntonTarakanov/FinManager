@@ -7,23 +7,41 @@
 </head>
 <body bgcolor="#778899">
 
+<div class="credit-calc">
 
-<div class="example">
-
-    <div id="inputDate" class="unit">
-        <form id="creditDate" class="input">
-            <label>Sum<input id="sum" type="text" value="500000"></label><br>
-            <label>Count Months<input id="count" type="text" value="60"></label><br>
-            <label><input id="percent" type="text" value="11.05"></label><br>
-        </form>
+    <div id="input-credit" class="unit">
+            <label>Sum<input id="sum-credit" type="text" value="500000"></label>
+            <label>Count Months<input id="count-credit" type="text" value="60"></label>
+            <label>%<input id="percent-credit" type="text" value="11.05"></label>
+            <button id="do-credit">do</button>
     </div>
 
-    <div id="outputDate" class="unit">
-        <p id="outputText" class="word">Result</p>
+    <div id="result-credit" class="unit">
+        <p id="out-credit">Monthly payment</p>
     </div>
 
-    <div id="options" class="unit">
-        <p id="optionsText" class="word">Calculate Annuity payment. Result - Monthly payment </p>
+    <div id="options-credit" class="unit">
+
+    </div>
+
+</div>
+
+<div class="early-pay">
+
+    <div id="input-early" class="unit">
+        <label>Loan balance<input id="sum-early" type="text" value="500000"></label>
+        <label>Count Months<input id="count-early" type="text" value="60"></label>
+        <label>%<input id="percent-early" type="text" value="11.05"></label>
+        <label>Repayment amount<input id="amount-early" type="text" value="200000"></label>
+        <button id="do-early">do</button>
+    </div>
+
+    <div id="result-early" class="unit">
+        <p id="out-early">Monthly payment</p>
+        <p id="saving">Monthly payment</p>
+    </div>
+
+    <div id="options-early" class="unit">
     </div>
 
 </div>
