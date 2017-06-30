@@ -5,47 +5,40 @@
     <title>FinManager</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
-<body bgcolor="#778899">
+<body bgcolor="#538E33">
 
-<div class="credit-calc">
+<div class="module">
 
-    <div id="input-credit" class="unit">
+    <div id="input-credit" class="module">
             <label>Sum<input id="sum-credit" type="text" value="500000"></label>
             <label>Count Months<input id="count-credit" type="text" value="60"></label>
             <label>%<input id="percent-credit" type="text" value="11.05"></label>
             <button id="do-credit">do</button>
     </div>
 
-    <div id="result-credit" class="unit">
-        <p id="out-credit">Monthly payment</p>
-    </div>
-
-    <div id="options-credit" class="unit">
-
+    <div id="result-credit" class="module">
+        <label>Monthly payment:<p id="out-credit">-</p></label>
     </div>
 
 </div>
 
-<div class="early-pay">
+<div class="module">
 
-    <div id="input-early" class="unit">
+    <div id="input-early" class="module">
         <label>Loan balance<input id="sum-early" type="text" value="500000"></label>
         <label>Count Months<input id="count-early" type="text" value="60"></label>
         <label>%<input id="percent-early" type="text" value="11.05"></label>
-        <label>Repayment amount<input id="amount-early" type="text" value="200000"></label>
+        <label>Repayment amount:<input id="amount-early" type="text" value="200000"></label>
         <button id="do-early">do</button>
     </div>
 
-    <div id="result-early" class="unit">
-        <p id="out-early">Monthly payment</p>
-        <p id="saving">Monthly payment</p>
-    </div>
-
-    <div id="options-early" class="unit">
+    <div id="result-early" class="module">
+        <label>Monthly payment:<p id="out-early">-</p></label>
+        <label>Saving:<p id="saving">-</p></label>
     </div>
 
 </div>
 
-    <script src="./script.js"></script>
+<script src="./script.js"></script>
 </body>
 </html>
