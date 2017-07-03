@@ -1,18 +1,62 @@
-body {
+.application {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     align-items: stretch;
-    justify-content: center;
-    font-weight: bold;
+    background: #535362;
+    margin: 1%;
+    padding: 1%;
+    border: 7px double black;
 }
 
 .module {
-    border: 15px groove orange;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
-    margin: 10px;
-    flex-basis: 200px;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 1%;
+    padding: 1%;
+    border: 7px double #d0c39d;
+    background: chocolate;
+}
+
+.caption {
+    border: 3px double white;
+    background: black;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.unit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    background: saddlebrown;
+    border: 7px double #d0c39d;
+    margin: 2%;
+    padding: 2%;
+}
+
+button {
+    background-color: #d0c39d;
+    padding: 2px;
+    margin: 1%;
+    border-radius: 5px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(black), to(black), color-stop(0.5, gray));
+    width: 100%;
+    border: 3px double white;
+    font-size: 100%;
+    font-weight: bold;
+    color: white;
+}
+
+input {
+    float:left;
+    margin: 1%;
+    padding: 1%;
 }
